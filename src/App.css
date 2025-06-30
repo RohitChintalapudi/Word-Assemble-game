@@ -1,0 +1,137 @@
+body {
+  background-color: rgb(15, 15, 42);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.title {
+  margin-top: 20px;
+}
+
+.game-desc {
+  width: 390px;
+}
+
+.header-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.outer-box {
+  margin-top: 50px;
+  border: 3px solid white;
+  padding: 15px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.result-box1 {
+  background-color: rgb(99, 239, 99);
+  width: 380px;
+  height: 80px;
+  margin-top: 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+.result-box2 {
+  background-color:rgb(248, 44, 44);
+  width: 380px;
+  height: 80px;
+  margin-top: 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+button:disabled{
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.win {
+  font-size: larger;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.win-desc {
+  font-size: medium;
+  margin-top: -10px;
+  margin-left: 20px;
+}
+
+.language-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 400px;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+
+.letters {
+  border-bottom: 3px solid black;
+  margin-right: 10px;
+  background-color: rgb(230, 230, 230);
+  padding: 5px;
+  font-weight: bold;
+}
+
+.word-box {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 15px;
+}
+
+.buttons {
+  background-color: yellow;
+  font-weight: bold;
+  padding: 10px;
+  margin: 1.5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.buttons.correct {
+  background-color: rgb(50, 242, 50);
+}
+
+.buttons.wrong {
+  background-color: rgb(245, 43, 43);
+}
+
+.alphabet-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 400px;
+  margin: 40px 0px;
+}
+
+.newgame {
+  background-color: skyblue;
+  border-radius: 2px;
+  width: 200px;
+  height: 50px;
+  margin-top: -15px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.lost {
+  opacity: 0.2;
+  text-decoration: line-through;
+
+}
