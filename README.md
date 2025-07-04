@@ -1,12 +1,24 @@
-# React + Vite
+# 🧩 Word Assemble Game – React Word Puzzle
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Word Assemble Game** is a fun and interactive word puzzle game built with **React.js**. Players must correctly assemble jumbled letters to form a valid word. It helps improve vocabulary and spelling skills while keeping things fun and engaging.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔠 Randomly shuffled letters in each round  
+- 🧠 Click-based letter selection to form words  
+- ✅ Instant feedback on correct or incorrect answers  
+- 🔁 "Play Again" or "New Word" functionality  
+- ⏱️ Optional timer mode for extra challenge  
+- 📱 Responsive design that works across devices
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **React.js** – Frontend framework  
+- **JavaScript (ES6+)** – Game logic  
+- **HTML & CSS** – Layout and styling
+
+---
