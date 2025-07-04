@@ -3,6 +3,7 @@ import Language from "./language";
 import Header from "./Header";
 import { languages } from "./languages";
 import Getrandom from "./Random";
+import Confetti from "react-confetti";
 
 export default function Index() {
   const [currentWord, setCurrentWord] = useState(() => Getrandom());
@@ -24,7 +25,7 @@ const isGamewon = currentWord.toUpperCase().split("").every(letter => guesslette
     const shouldReveal = isGuess || isGameover;
     return (
       <span className="letters" key={index}>
-        {shouldReveal ? letter : ""}
+        {shouldReveal ? letter : " "}
       </span>
     );
   });
@@ -111,6 +112,7 @@ const isGamewon = currentWord.toUpperCase().split("").every(letter => guesslette
           <button onClick={startnewgame} className="newgame">New Game</button>
         </div>
       )}
+      {isGamewon && <Confetti height={800}/>}
     </div>
   );
 }
