@@ -2,7 +2,6 @@ body {
   background-color: rgb(15, 15, 42);
   max-width: 600px;
   margin: 0 auto;
-  margin-top: 50px;
   background-image: url("/pinterestdownloader.com-1751596351.333959.jpg");
   
 }
@@ -124,7 +123,7 @@ button:disabled{
 
 .newgame {
   background-color: skyblue;
-  border-radius: 2px;
+  border-radius: 5px;
   width: 200px;
   height: 50px;
   margin-top: -15px;
